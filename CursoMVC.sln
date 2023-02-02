@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamadaApresentacaoAdmin", "CamadaApresentacao\CamadaApresentacaoAdmin.csproj", "{1D47D129-B321-4A02-B90A-A70642F8462A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamadaApresentacaoAdmin", "CamadaApresentacao\CamadaApresentacaoAdmin.csproj", "{1D47D129-B321-4A02-B90A-A70642F8462A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamadaApresentacaoVenda", "CamadaApresentacaoVenda\CamadaApresentacaoVenda.csproj", "{436E2D35-61A3-4032-8B46-CFE9161A9A2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamadaApresentacaoVenda", "CamadaApresentacaoVenda\CamadaApresentacaoVenda.csproj", "{436E2D35-61A3-4032-8B46-CFE9161A9A2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamadaDados", "CamadaDados\CamadaDados.csproj", "{8F82A618-C6EA-4603-88C4-8283730F0343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamadaEntidade", "CamadaEntidade\CamadaEntidade.csproj", "{D52C9945-CC94-4212-995A-19672F8A74E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamadaNegocio", "CamadaNegocio\CamadaNegocio.csproj", "{7CB45E85-87CE-4AC5-BF42-1A560CF4A56E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{436E2D35-61A3-4032-8B46-CFE9161A9A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{436E2D35-61A3-4032-8B46-CFE9161A9A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{436E2D35-61A3-4032-8B46-CFE9161A9A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F82A618-C6EA-4603-88C4-8283730F0343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F82A618-C6EA-4603-88C4-8283730F0343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F82A618-C6EA-4603-88C4-8283730F0343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F82A618-C6EA-4603-88C4-8283730F0343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D52C9945-CC94-4212-995A-19672F8A74E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52C9945-CC94-4212-995A-19672F8A74E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D52C9945-CC94-4212-995A-19672F8A74E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D52C9945-CC94-4212-995A-19672F8A74E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB45E85-87CE-4AC5-BF42-1A560CF4A56E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB45E85-87CE-4AC5-BF42-1A560CF4A56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB45E85-87CE-4AC5-BF42-1A560CF4A56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB45E85-87CE-4AC5-BF42-1A560CF4A56E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
